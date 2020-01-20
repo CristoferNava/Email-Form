@@ -17,6 +17,9 @@ resetBtn.addEventListener('click', resetForm);
 // Functions
 function loadDOM() {
   sendBtn.disabled = true;
+  email.classList.add('error');
+  subject.classList.add('error');
+  message.classList.add('error');
 }
 
 function validateField() {
